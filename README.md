@@ -102,8 +102,8 @@ X_train1 = Scaler.transform(x_train)
 
 #Create the model
 ai_brain = Sequential([
-    Dense(7,activation='relu'),
-    Dense(14,activation='relu'),
+    Dense(13,activation='relu'),
+    Dense(10,activation='relu'),
     Dense(1)
 ])
 
